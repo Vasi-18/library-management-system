@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const BooksCollection = ({ data, setData }) => {
   const [selectedUser, setSelectedUser] = useState(null);
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   const handleEdit = (user) => {
     setSelectedUser({ ...user, isEditing: true });
