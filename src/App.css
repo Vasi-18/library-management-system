@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+body {
+  background-color: rgb(11, 10, 10);
+  font-family: "Poppins", sans-serif;
+  background-image: url("./pages/books.jpg");
+  font-weight: bolder;
+  color: rgb(240, 236, 243);
+  overflow: hidden;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  color: #30475e;
+  font-size: 50px;
+  margin-top: 250px;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+.card {
+  width: 30rem;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  overflow: hidden;
+  padding: 16px;
+  border-radius: 12px;
+  border-color: rgba(11, 28, 38, 0.771);
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+.text {
+  padding: 2px 3px;
+}
+input {
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
+.btn {
+  border-radius: 3px;
+  margin-left: 150px;
+}
+.card-header {
+  background-color: rgba(11, 28, 38, 0.771);
+  color: white;
+}
+.navbar {
+  background-color: rgb(33, 37, 41);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #000000;
+}
+.nav-item {
+  padding: 10px;
+  margin-top: 10px;
+}
+.nav-link {
+  text-decoration: underline;
+}
+.nav-items {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+img {
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.55rem rgb(174, 140, 146));
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.text {
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+.manage-systems {
+  text-align: left;
+  padding-left: 20px;
+}
+.brand {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-right: auto;
+}
+.conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.brand {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+@media screen and (max-width: 500px) {
+  body {
+    text-align: center;
+  }
+}
+
